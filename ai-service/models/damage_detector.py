@@ -42,7 +42,7 @@ class DamageDetector:
             brightness = float(np.mean(img_array))
             contrast = float(np.std(img_array))
 
-            # Colour channel analysis
+            # Color channel analysis
             red_mean = float(np.mean(img_array[:, :, 0]))
             green_mean = float(np.mean(img_array[:, :, 1]))
             blue_mean = float(np.mean(img_array[:, :, 2]))
